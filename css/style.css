@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+/* ***************************************************** */
+.flex{
+    display: flex;
+}
+/* col-sx struttura */
+/* ***************************************************** */
+.col-sx{
+    width: 50px;
+    height: 100%;
+    background-color: aqua;
+}
+.main-container{
+    height: calc(100vh - 100px);
+}
+/* col-dx struttura */
+/* ***************************************************** */
+.col-dx{
+    width: calc(100% - 50px);
+    height: 100%;
+    background-color: crimson;   
+}
+.topbar{
+    height: 100px;
+    width: calc(100% - 50px);
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+.main{
+    background-color: beige;
+    width: 100%;
+    height: 1000px;
+    padding-top: 100px;
+}
+/* footer struttura */
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}

@@ -1,21 +1,25 @@
-/* x-small */
-@media screen and (max-width: 576px) {
-    
+/*small */
+@media screen and (min-width: 576px) {
+    .col-sx{
+        width: 200px;
+    }
+    .col-dx{
+        width: calc(100% - 200px);    
+    }
+    .topbar{
+        width: calc(100% - 200px);
+    }
 }
 
-/*small */
+/*medium */
 @media screen and (max-width: 768px) {
     
 }
 
-/* medium */
+/* large */
 @media screen and (max-width: 992px) {
     
 }
 
-/* large */
-@media screen and (max-width: 1200px) {
-    
-}
 
 
