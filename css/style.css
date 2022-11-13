@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 /* utilities */
@@ -31,7 +32,7 @@
 .col-dx{
     width: calc(100% - 50px);
     height: 100%;
-    background-color: crimson;   
+    background-color: #141922;   
 }
 .topbar-container{
     height: 100px;
@@ -77,6 +78,7 @@ footer{
 
 /* col-dx stile */
 /* ***************************************************** */
+/* topbar */
 .topbar{
     background-color: transparent;
 }
@@ -92,4 +94,46 @@ footer{
     font-size: 20px;
     border-radius: 25px;
     padding: 10px 40px;
+}
+/* nav */
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 0 0 0;
+    justify-content: center;
+}
+.category{
+    color: #62656A;
+    padding: 0 10px 50px;  
+}
+/* main */
+main{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.container-music-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-section{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.music-card{
+    margin: 30px 0;
+}
+.music-card-img img{
+    width: 200px;
+}
+.music-card-text{
+    text-align: center;
+}
+.music-card-text-title{
+    color: white;
+    font-weight: bold;
+}
+.music-card-text-author{
+    color: #62656A;
 }
