@@ -13,6 +13,15 @@
 .align-center{
     align-items: center;
 }
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+.less-gap{
+    gap: 10px;
+}
 /* col-sx struttura */
 /* ***************************************************** */
 .col-sx{
@@ -50,12 +59,20 @@
     padding-top: 100px;
 }
 
-/* col-dx struttura */
+/* footer struttura */
 /* ***************************************************** */
 footer{
     height: 100px;
     width: 100%;
     background-color: #282828;
+}
+.footer-container{
+    padding-top: 10px;
+}
+.col-30{
+    width: calc(100% / 3);
+    height: 75px;
+    /* background-color: beige; */
 }
 
 /* col-sx stile */
@@ -129,10 +146,10 @@ main{
     color: #62656A;
 }
 .music-card{
-    width: 200px;
+    width: calc(100%/2 - 20px);
 }
 .music-card-img img{
-    width: 200px;
+    width: 100%;
 }
 .music-card-text{
     text-align: center;
@@ -143,4 +160,81 @@ main{
 }
 .music-card-text-author{
     color: #62656A;
+}
+
+/* footer stile */
+/* ***************************************************** */
+.song-img img{
+    width: 100%;
+}
+.song-img, .song-text{
+    width: 40%;
+}
+.song-text-title{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+.song-text-author{
+    font-size: 10px;
+    color: #62656A;
+}
+.song-icons{
+    width: 20%;
+}
+.song-icon{
+    color: #62656A;
+    font-size: 15px;
+}
+.media-player-icon{
+    color: white;
+}
+.line{
+    width: 60%;
+    background:rgb(82, 82, 82);
+    position:relative;
+    height:5px;
+    border-radius: 20px;
+}
+.line:before {
+    content:'';
+    background:rgb(182, 182, 182);
+    width:30%;
+    height:5px;
+    position:absolute;
+    border-radius: 20px;
+}
+.lenght{
+    height: 20px;
+    margin-top: 15px;
+}
+.seconds{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+.volume-line{
+    width: 80%;
+    background:rgb(82, 82, 82);
+    position:relative;
+    height:5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.volume-line:before {
+    content:'';
+    background:rgb(182, 182, 182);
+    width:30%;
+    height:5px;
+    position:absolute;
+    border-radius: 20px;
+}
+.actions{
+    height: 20px;
+    width: 100%;
+}
+.action-icon{
+    color: white;
+    font-size: 15px;
+    width: 50%;
 }
