@@ -66,6 +66,9 @@ footer{
     height: 100px;
     width: 100%;
     background-color: #282828;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
 }
 .footer-container{
     padding-top: 10px;
