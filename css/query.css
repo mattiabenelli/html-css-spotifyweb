@@ -1,14 +1,21 @@
 /*small */
 @media screen and (min-width: 576px) {
     .col-sx{
-        width: 200px;
+        width: 250px;
     }
     .col-dx{
-        width: calc(100% - 200px);    
+        width: calc(100% - 250px);    
     }
-    .topbar{
-        width: calc(100% - 200px);
+    .topbar-container{
+        width: calc(100% - 250px);
     }
+    .icon-mobile{
+        display: none;
+    }
+    .icons-top-desktop, .icons-bottom-desktop{
+        display: block;
+    }
+    
 }
 
 /*medium */

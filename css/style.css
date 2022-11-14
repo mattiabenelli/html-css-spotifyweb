@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    width: 100%;
     align-items: center;
 }
 .less-gap{
@@ -89,6 +90,18 @@ footer{
 
 .icons-top-mobile, .icons-bottom-mobile{
     text-align: center;
+}
+.icons-top-desktop, .icons-bottom-desktop{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+.logo-desktop img{
+    height: 50px;
+}
+.function-icon img{
+    width: 100%;
 }
 
 /* col-dx stile */
@@ -237,4 +250,7 @@ main{
     color: white;
     font-size: 15px;
     width: 50%;
+}
+.song, .media-player{
+    width: 100%;
 }
