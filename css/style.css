@@ -20,14 +20,14 @@
     width: 100%;
     align-items: center;
 }
-.less-gap{
-    gap: 10px;
-}
 .big{
     font-size: 30px
 }
 .flex-start{
     justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
 }
 /* col-sx struttura */
 /* ***************************************************** */
@@ -248,9 +248,7 @@ main{
 .song-img img{
     width: 70px;
 }
-.song-img, .song-text{
-    width: 40%;
-}
+
 .song-text-title{
     font-size: 10px;
     color: white;
