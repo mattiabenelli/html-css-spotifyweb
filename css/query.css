@@ -19,8 +19,19 @@
 }
 
 /*medium */
-@media screen and (max-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+    .music-card{
+        width: calc(100%/4 - 20px);
+    }
+    .media-player-icon{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .song-icons{
+        display: flex;
+        gap: 10px;
+    } 
+       
 }
 
 /* large */

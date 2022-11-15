@@ -23,6 +23,12 @@
 .less-gap{
     gap: 10px;
 }
+.big{
+    font-size: 30px
+}
+.flex-start{
+    justify-content: flex-start;
+}
 /* col-sx struttura */
 /* ***************************************************** */
 .col-sx{
@@ -240,7 +246,7 @@ main{
 /* footer stile */
 /* ***************************************************** */
 .song-img img{
-    width: 100%;
+    width: 70px;
 }
 .song-img, .song-text{
     width: 40%;
@@ -263,6 +269,7 @@ main{
 }
 .media-player-icon{
     color: white;
+    font-size: 20px;
 }
 .line{
     width: 60%;
