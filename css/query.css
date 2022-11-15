@@ -30,15 +30,17 @@
     .song-icons{
         display: flex;
         gap: 10px;
-    } 
-       
+    }  
 }
 
 /* large */
 @media screen and (min-width: 992px) {
     .music-card{
         width: calc(100%/6 - 20px);
-    }   
+    }
+    .main-container{
+        width: 95%;
+    }  
 }
 
 
