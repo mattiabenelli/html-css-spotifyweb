@@ -9,7 +9,7 @@
     .topbar-container{
         width: calc(100% - 250px);
     }
-    .icon-mobile{
+    .icons-top-mobile, .icons-bottom-mobile{
         display: none;
     }
     .icons-top-desktop, .icons-bottom-desktop{
@@ -40,6 +40,10 @@
     }
     .main-container{
         width: 95%;
+    }
+    .media-player-icon{
+        width: 60%;
+        margin: 0 auto;
     }  
 }
 

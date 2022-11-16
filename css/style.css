@@ -106,6 +106,10 @@ footer{
 .icons-bottom-desktop{
     height: 80px;
 }
+.icons-top-desktop{
+    height: 550px;
+    overflow-y: hidden;
+}
 .icons-top-desktop, .icons-bottom-desktop{
     display: none;
     width: 90%;
@@ -127,6 +131,8 @@ footer{
 }
 .playlist{
     margin-top: 20px;
+    height: 350px;
+    overflow-y: hidden;
 }
 .playlist-title{
     font-size: 20px;
@@ -144,14 +150,13 @@ footer{
     font-size: 20px; 
     margin-right: 10px; 
 }
-.your-playlist-container{
-    overflow: hidden;
+
+.playlist ul{
+    list-style-type: none;
+    overflow-y: auto;
     height: 250px;
 }
-.your-playlist-container ul{
-    list-style-type: none;
-}
-.your-playlist-container li{
+.playlist li{
     margin-bottom: 10px;
 }
 .install-app .function-icon{
@@ -191,6 +196,7 @@ footer{
     font-size: 20px;
     border-radius: 25px;
     padding: 10px 40px;
+    margin-right: 20px;
 }
 /* nav */
 .nav-container{
@@ -198,10 +204,11 @@ footer{
     flex-wrap: wrap;
     padding: 120px 0 0 0;
     justify-content: center;
+    min-height: 205px;
 }
 .category{
     color: #62656A;
-    padding: 0 10px 50px;  
+    margin: 0 10px 50px;  
 }
 /* main */
 .main-container{
@@ -229,6 +236,9 @@ main{
 }
 .music-card{
     width: calc(100%/2 - 20px);
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 .music-card-img img{
     width: 100%;
@@ -321,4 +331,55 @@ main{
 }
 .song, .media-player{
     width: 100%;
+}
+
+/* footer stile */
+/* ***************************************************** */
+.function-sidebar:hover{
+    border-left: 1px solid #ADFF2F;
+    padding-left: 10px;
+    color: white;
+}
+.playlist li:hover, .install-app:hover, .song-icon:hover, .song-text-author:hover{
+    color: white;
+}
+.new-playlist-container:hover .plus{
+    background-color: white;
+}
+.new-playlist-container:hover .new-playlist-create{
+    color: white;
+}
+.category:hover{
+    border-bottom: 1px solid #ADFF2F;
+    padding-bottom: 5px;
+}
+.bottone:hover{
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+.pause:hover{
+    scale: 1.2;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.icon-overlay{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.music-card:hover .overlay{
+    opacity: 1;
 }
